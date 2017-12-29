@@ -7,8 +7,10 @@ const Carousel = () => {
         <img className="car-logo" src={require('../assets/images/logo.png')} alt="logo"/>
         <h1>Daily Specials</h1>
         <div className="car-special-text">
-          <h2>Teriyaki Chicken with Fried Rice</h2>
-          <h2>Asian BBQ Chicken</h2>
+          <ul>
+            <li className="anchor"><h2>Teriyaki Chicken with Fried Rice</h2></li>
+            <li className="anchor"><h2>Asian BBQ Chicken</h2></li>
+          </ul>
         </div>
       </div>
 

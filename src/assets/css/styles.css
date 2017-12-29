@@ -72,6 +72,7 @@ body {
 
 .car-special-text h2 {
   line-height: 5rem;
+  text-align: center;
 }
 
 .car-img {
@@ -146,6 +147,10 @@ body {
     max-width: 300px;
   }
 
+  .car-special-text h2 {
+    font-size: 1.5rem;
+  }
+
   .car-img {
     max-width: 479px;
   }
@@ -156,7 +161,7 @@ body {
   }
 
   .menu img, .order-menu img {
-    max-width: 250px;
+    width: 100%;
   }
 
   .footer {
