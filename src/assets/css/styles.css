@@ -81,8 +81,9 @@ body {
 /*  MENU */
 
 .menu-div {
-  margin-top: 10px;
-  background-color: #006994;
+  margin-top: 20px;
+  /* background-color: #006994; */
+  background: linear-gradient(#00FFFF, #006994)
 }
 
 .menu-div h1 {
@@ -125,7 +126,12 @@ body {
 }
 
 .card {
+  background: linear-gradient(#fff,#F5F5DC);
   min-height: 250px;
+}
+
+.card-header {
+  background: linear-gradient(#00FFFF, #006994)
 }
 
 /* MEDIA */
