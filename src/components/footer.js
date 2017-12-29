@@ -2,8 +2,7 @@ import React from 'react';
 
 const Footer = () => {
   return (
-    <div className="footer">
-
+    <div className="footer" id="contact">
       <div class="card text-center">
         <div class="card-header">
           <h3>Address:</h3>
@@ -15,6 +14,8 @@ const Footer = () => {
           <p className="card-text">Tel: 407-479-2025</p>
         </div>
       </div>
+
+      <img src={require('../assets/images/ocean.png')} alt="ocean img"/>
 
       <div class="card text-center">
         <div class="card-header">

@@ -1,6 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
+
+  const refreshPage = () => window.location.reload()
+
   return (
     <div className="header">
 
@@ -15,16 +19,16 @@ const Header = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item active">
-              <a className="nav-link" href="#">Home <span className="sr-only">(current)</span></a>
+              <Link to="/" className="nav-link" href="#" onClick={() => this.refreshPage()}>Home</Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Features</a>
+              <a className="nav-link" href="#">About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Pricing</a>
+              <a className="nav-link" href="#menu">Menu</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Disabled</a>
+              <a className="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
