@@ -8,7 +8,7 @@ const Body = () => {
     <div className="body container">
       <Carousel />
     <div className="menu-div">
-      <h1 id="menu">Menu</h1>
+      <a href="#menu"><h1 id="menu">Menu</h1></a>
     </div>
       <div className="menu">
         <div className="menu-1">
@@ -27,7 +27,6 @@ const Body = () => {
           <img src={require('../assets/images/order-menu-2.png')}/>
         </div>
       </div>
-
     </div>
   )
 }
