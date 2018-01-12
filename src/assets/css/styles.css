@@ -85,17 +85,17 @@ body {
 
 /*  MENU */
 
-.menu-div {
+.menu-div, .gallery-div {
   margin-top: 20px;
   /* background-color: #006994; */
   background: linear-gradient(#00FFFF, #006994)
 }
 
-.menu-div a:hover {
+.menu-div a:hover, .gallery-div a:hover {
   text-decoration: none;
 }
 
-.menu-div h1 {
+.menu-div h1, .gallery-div h1 {
   color: white;
   text-align: center;
 }
@@ -108,6 +108,15 @@ body {
 
 .menu img, .order-menu img {
   max-width: 500px;
+}
+
+.gallery {
+}
+
+.gallery img {
+  border-radius: 5px;
+  margin: 5px;
+  max-width: 200px;
 }
 
 /* FOOTER */
@@ -172,6 +181,10 @@ body {
     width: 100%;
   }
 
+  .gallery img{
+    margin-left: 80px;
+  }
+
   .footer {
     flex-direction: column;
   }
@@ -197,6 +210,10 @@ body {
 
   .menu img, .order-menu img {
     min-width: 400px;
+  }
+
+  .gallery img{
+    margin-left: 30px;
   }
 
   .footer {

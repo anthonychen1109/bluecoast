@@ -28,6 +28,9 @@ const Header = () => {
               <a className="nav-link" href="#menu">Menu</a>
             </li>
             <li className="nav-item">
+              <a className="nav-link" href="#gallery">Gallery</a>
+            </li>
+            <li className="nav-item">
               <a className="nav-link" href="#contact">Contact</a>
             </li>
           </ul>
