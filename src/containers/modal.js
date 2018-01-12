@@ -5,8 +5,9 @@ import Modal from 'react-modal';
 const customStyles = {
 	content: {
 		margin: 'auto',
+    marginTop: '30px',
 		maxHeight: '80%',
-		maxWidth: '50%'
+		maxWidth: '100%'
 	}
 }
 
@@ -34,7 +35,7 @@ class GalleryModal extends Component {
 
   render() {
     return (
-      <div>
+      <div className="gal-modal">
       <img
         src={this.props.image}
         alt={this.props.image}
@@ -45,7 +46,6 @@ class GalleryModal extends Component {
           onRequestClose={this.closeModal}
           style={customStyles}
           >
-          <button className="btn btn-danger modal-btn" onClick={this.closeModal}>X</button>
             <img className="modal-img"
               src={this.props.image}
               alt={this.props.image}
